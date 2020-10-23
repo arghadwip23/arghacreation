@@ -1,0 +1,63 @@
+body {
+    font-size: 15pt;
+    background-image:url(https://source.unsplash.com/1600x900/?nature,water);
+    background-attachment:fixed;
+}
+nav{
+  font-family: rye;
+  font-size: 55px;
+}
+form div{
+  background: #FFFFFFC2;
+  padding: 9px;
+  border-radius: 10px;
+  border-left: 10px solid #207AFF;
+  box-shadow:5px 5px 3px #888988;
+}
+#name{
+  background-color: #FFFFFF00;
+  border:none;
+  border-bottom:1px solid black;
+  color:#000000;
+}
+#pop{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  
+}
+#bot{
+  display: none;
+}
+.result{
+  margin: 0 auto;
+  vertical-align: center;
+  margin-top: 70%;
+  transform: translateY(-50%);
+  width: 80%;
+}
+footer{
+  background: #FFFFFF99;
+  text-shadow: 5px 2px 5px #FFFFFF;
+}
+#pop h1{
+  font-family: lobster;
+  font-size: 60px;
+  color:#0085FF;
+  animation: name 4s infinite alternate;
+}
+@keyframes name {
+  0%{color:#0085FF;}
+  50%{color:#C95CFF;}
+  100%{color:#605CFF;}
+}
+#pop h3{
+  font-family: rye;
+  color:#4E79F6;
+}
+#pop h5{
+  color: #7292ED;
+}
+#try{
+  display: inline-block;
+}
