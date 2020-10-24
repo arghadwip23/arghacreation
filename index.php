@@ -38,8 +38,6 @@
       <img src="/logo.png" width="40" height="40" alt="" class="d-inline-block align-top"><span class="text-light h3 ml-1">Manash</span>
     </a>
   </nav>
-  <a href="logo.png" download="logo.png" target="_blank"
-  > download</a>
   <form action="connect.php" method="post" acaccept-charset="utf-8" class="container p-3 sm">
     <div class="form-group">
       <label for="name">name</label>
